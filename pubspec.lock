@@ -91,9 +91,11 @@ packages:
   mqtt_client:
     dependency: "direct main"
     description:
-      path: "mqtt_client-5.5.2"
-      relative: true
-    source: path
+      path: "."
+      ref: HEAD
+      resolved-ref: a5fff74e43fd009eb02e2b68057254b62f7f7a4a
+      url: "git://github.com/Mr47hsy/mqtt_client"
+    source: git
     version: "5.5.2"
   path:
     dependency: transitive

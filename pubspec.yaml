@@ -14,7 +14,8 @@ dependencies:
   dio: ^2.1.0
   sqflite: ^1.1.0
   mqtt_client:
-    path: mqtt_client-5.5.2
+    git:
+      url: "git://github.com/Mr47hsy/mqtt_client"
 
 
 dev_dependencies:
